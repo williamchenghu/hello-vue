@@ -5,7 +5,8 @@
     <div class="devices">
       <div class="item">{{ status }}</div>
       <div class="item">{{ devName }}</div>
-      <div class="item">{{ switchButton }}</div>
+      <!-- <div class="item">{{ switchButton }}</div> -->
+      <MdSwitch v-model="switchButton" class="md-primary">{{ switchButton }}</MdSwitch>
     </div>
   </div>
 </template>
